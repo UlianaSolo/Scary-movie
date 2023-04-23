@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scary Movie</title>
+    <style>
+      body {
+        background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/480/original/les_tuman.jpg?1656960793);
+        background-size: cover;
+      }
+
+      h1 {
+        text-decoration: none;
+        color: rgb(247, 244, 244);
+        font-size: 55px;
+        font-weight: 100;
+        text-align: center;
+        font-family: "Pacifico";
+        animation: neon 5s infinite;
+      }
+
+      @keyframes neon {
+        0%,
+        39%,
+        41%,
+        59%,
+        61%,
+        100% {
+          text-shadow: rgb(165, 12, 12) 0 0 12px, rgb(150, 11, 11) 0 0 24px,
+            rgb(150, 11, 11) 0 0 36px;
+        }
+
+        40%,
+        60% {
+          text-shadow: none;
+        }
+      }
+
+      h2 {
+        text-decoration: none;
+        color: rgb(255, 31, 31);
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 3px;
+        text-shadow: rgb(247, 117, 117) 0 0, cyan 0 0;
+        transition: text-shadow 200ms;
+      }
+
+      h2:hover {
+        text-shadow: rgb(90, 9, 9) -3px 0, cyan 3px 0;
+      }
+
+      .button {
+        width: 350px;
+        height: 50px;
+        border-radius: 45px;
+        font-size: 1.2rem;
+        font-weight: 750;
+        background: #eb0d2b;
+        color: rgb(8, 8, 8);
+        border: 1px solid;
+        transition: all 1s ease;
+        border: 4px solid #eb0d2b;
+        transition-delay: 0.2s;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0 0 15px rgb(49, 49, 53);
+      }
+
+      .button:hover {
+        box-shadow: 0 0 20px #eb0d2b, 0 0 40px #eb0d2b;
+        border: 4px solid #eb0d2b;
+        color: rgb(247, 231, 231);
+        transition: box-shadow 3s, border 1s, background 1s, color 1s;
+      }
+
+      .container {
+        width: 100%;
+        padding: 30px 30px 30px 30px;
+        border-radius: 10px;
+        background: rgb(83, 78, 78);
+        display: block;
+        gap: 15px;
+        margin: 0 auto;
+        box-shadow: 0 0 15px rgb(49, 49, 53) inset;
+      }
+
+      .card {
+        width: 900px;
+        background: #a7a3a3;
+        border-radius: 10px;
+        padding: 10px 15px 10px 20px;
+        margin: 0 auto;
+        display: block;
+        box-shadow: 0 0 15px rgb(49, 49, 53) inset;
+      }
+
+      ul {
+        list-style: none;
+        padding: 4px;
+      }
+
+      IMG.scary {
+        float: right;
+        padding: 4px 4px 4px 4px;
+        border-radius: 5%;
+        box-shadow: 0 0 15px rgb(49, 49, 53) inset;
+      }
+
+      .sours {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+      }
+
+      .sours:hover {
+        color: #b60b0b;
+        text-decoration: underline;
+      }
+
+      p {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 16px;
+        color: black;
+      }
+
+      .final {
+        color: #a7a3a3;
+        font-family: monospace;
+        text-align: center;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Scary Movie</h1>
+    <h2>Most Iconic Quotes From Horror Movies</h2>
+    <div class="container">
+      <ul>
+        <div class="card one">
+          <li>
+            <a
+              href="https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs_(film)"
+              target="_blank"
+              class="sours"
+            >
+              "A Census Taker Once Tried To Test Me. I Ate His Liver With Some
+              Fava Beans And A Nice Chianti." - The Silence Of The Lambs (1991)
+            </a>
+          </li>
+          <div>
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/450/original/The_Silence_Of_The_Lambs.jpg?1656944866"
+              width="400"
+              alt="Movie"
+              class="scary"
+            />
+            <p>
+              &nbsp;&nbsp;Here is an example of how performance can impact
+              dialogue. Anthony Hopkins as the cannibal doctor, Hannibal Lecter,
+              truly adds another level of creepiness with his chilling delivery
+              of this line and the added slurping noise that Hopkins does
+              afterward is just the cherry on top.
+            </p>
+            <p>
+              &nbsp;&nbsp;This quote makes Hannibal, as a character, so much
+              more horrifying as it reveals the full extent of his crimes and
+              his admitted cannibalism. He is a character who can't be trusted,
+              but also wickedly intelligent and captivating with his words.
+              Hopkins has plenty of great quotes from The Silence of the Lambs,
+              but this is the most iconic.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="card two">
+          <li>
+            <a
+              href="https://en.wikipedia.org/wiki/Scream_(1996_film)"
+              target="_blank"
+              class="sours"
+            >
+              "Do You Like Scary Movies?" - Scream (1996)
+            </a>
+          </li>
+          <div>
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/449/original/Scream_%281996%29.jpg?1656944855"
+              width="400"
+              alt="Movie"
+              class="scary"
+            />
+            <p>
+              &nbsp;&nbsp;Scream is a meta-horror slasher film from one of the
+              masters of horror, director Wes Craven. The film makes lots of
+              jabs at cliches and mistakes that characters make in famous
+              slasher movies, like Halloween and A Nightmare on Elm Street.
+            </p>
+            <p>
+              &nbsp;&nbsp;This quote comes in at the opening sequence, where the
+              Ghostface killer terrorizes Drew Barrymore's character over the
+              phone. This freaky question sets up the killer's obsession with
+              horror movies and how the film is going to not-so-subtly make fun
+              of many elements seen in slasher films. It's a suspenseful scene
+              that sets up a fun horror-thriller.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="card three">
+          <li>
+            <a
+              href="https://en.wikipedia.org/wiki/Saw_(2004_film)"
+              target="_blank"
+              class="sours"
+            >
+              "Do You Want To Play A Game?" - Saw (2004)
+            </a>
+          </li>
+          <div>
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/448/original/Saw_%282004%29.png?1656944841"
+              width="400"
+              height="225"
+              alt="Movie"
+              class="scary"
+            />
+            <p>
+              &nbsp;&nbsp;This quote is said throughout the Saw franchise and
+              serves as the setup for each movie. A crazy serial killer named
+              Jigsaw puts people through horrifying, gory games to see how far
+              they will go in order to survive. Jigsaw and his haunting voice
+              create a haunting image and sound that are hard to forget.
+            </p>
+            <p>
+              &nbsp;&nbsp;The Saw franchise has become such a success that it
+              has spawned eight sequels with the latest installments, Jigsaw and
+              Spiral, finding new and inventive ways to keep the series alive.
+              Horror fans just can't get enough of Jigsaw and his sadistic
+              games.
+            </p>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <br />
+    <button class="button">Do you like scary movies?</button>
+    <br />
+    <div class="final">Everyone gets scared</div>
+
+    <script>
+      function clickOn() {
+        let name = prompt("What is your name?");
+        let age = prompt("How old are you?");
+
+        if (age < 18) {
+          document.querySelector("h1").innerHTML =
+            "Sorry, " + name + "! You cannot watch horror!";
+        }
+
+        if (age >= 18) {
+          document.querySelector("h1").innerHTML =
+            "Hi, " + name + "! Welcome to the horror world!";
+        }
+      }
+
+      let contactButton = document.querySelector("button");
+
+      contactButton.addEventListener("click", clickOn);
+    </script>
+  </body>
+</html>
